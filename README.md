@@ -1,7 +1,7 @@
-# rick_and_mrty_app
+# Rick And Morty App
 
 A new Flutter project.
 
-## Getting Started
+![alt-text](https://github.com/hilmicihan/Rick-And-Morty-App/blob/master/rick_and_morty.gif)
 
 
