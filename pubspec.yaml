@@ -22,6 +22,7 @@ environment:
 
 dependencies:
   autocomplete_textfield: ^1.7.3
+  shimmer: ^1.1.1
   google_fonts: ^1.1.0
   font_awesome_flutter: ^8.8.1
   cached_network_image: ^2.3.2+1

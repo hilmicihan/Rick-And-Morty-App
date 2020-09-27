@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:rick_and_mrty_app/data/characterData.dart';
 import 'package:rick_and_mrty_app/data/serviceFunctions.dart';
 import 'package:rick_and_mrty_app/screens/ScreenInfo.dart';
+import 'package:rick_and_mrty_app/screens/ScreenLoading.dart';
 import 'package:rick_and_mrty_app/screens/listScreens.dart';
 import 'package:rick_and_mrty_app/utils/constant.dart';
 import 'package:rick_and_mrty_app/utils/searchUtil.dart';
@@ -136,7 +137,7 @@ class _ScreenCharacterListState extends State<ScreenCharacterList> {
           data = "data";
         });
       });
-      return Column();
+      return LoadingMain();
     } else {
       return SingleChildScrollView(
         child: SafeArea(
